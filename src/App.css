@@ -1,0 +1,38 @@
+.employee-table .ant-table-thead > tr > th {
+  background-color: #fff3e6;
+  font-weight: 600;
+  color: #fc8000;
+  border-bottom: 1px solid #ffd6ad;
+}
+
+.employee-table .ant-table-tbody > tr:hover > td {
+  background-color: #fff7ed;
+}
+
+button,
+a,
+.ant-btn,
+.ant-switch,
+.ant-tag,
+.ant-table-row {
+  transition: all 0.2s ease-in-out;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  .print-content {
+    display: block !important;
+  }
+
+  .employee-table .ant-table {
+    border: 1px solid #e5e7eb;
+  }
+
+  .employee-table .ant-table-thead > tr > th {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+}
